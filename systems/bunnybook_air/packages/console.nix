@@ -24,5 +24,10 @@
     # Development Tools
     gh
     direnv
+
+    # System Utilities
+    bat
+    btop
+    fastfetch
   ];
 }

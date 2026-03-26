@@ -28,4 +28,10 @@
 
   # Enable Touch ID for sudo
   security.pam.services.sudo_local.touchIdAuth = true;
+
+  # Rust update script
+  system.activationScripts.postActivation.text = ''
+    echo "Updating rustup and cargo..." >&2
+    ${pkgs.rustup}/bin/rustup update
+  '';
 }
