@@ -13,6 +13,14 @@
     fastfetch
     starship
 
+    # Useful garbage
+    fzf
+    tmux
+    neovim
+    lazygit
+    ripgrep
+    fd
+
     # Compression
     lzop
     p7zip

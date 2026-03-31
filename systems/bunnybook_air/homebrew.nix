@@ -11,6 +11,11 @@ _:
 
     casks = [
       "librewolf"
+      "jellyfin-media-player"
     ];
+  };
+
+  environment.variables = {
+    HOMEBREW_NO_AUTO_UPDATE = "1";
   };
 }
