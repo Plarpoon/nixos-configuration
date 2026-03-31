@@ -12,6 +12,7 @@ _:
     casks = [
       "librewolf"
       "jellyfin-media-player"
+      "zulip"
     ];
   };
 
