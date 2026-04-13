@@ -31,7 +31,7 @@
 
     # Development Tools
     gh
-    direnv
+    cmake
 
     # System Utilities
     bat

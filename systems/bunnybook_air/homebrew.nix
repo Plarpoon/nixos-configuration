@@ -1,6 +1,10 @@
-_:
+{ pkgs, ... }:
 
 {
+  environment.systemPackages = with pkgs; [
+    glab
+  ];
+
   homebrew = {
     enable = true;
     onActivation = {
@@ -13,6 +17,13 @@ _:
       "librewolf"
       "jellyfin-media-player"
       "zulip"
+      "maccy"
+      "dbeaver-community"
+    ];
+
+    brews = [
+      "postgresql@18"
+      "direnv"
     ];
   };
 

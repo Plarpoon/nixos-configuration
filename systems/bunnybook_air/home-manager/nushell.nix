@@ -26,6 +26,7 @@
       path add "/nix/var/nix/profiles/default/bin"
       path add "/opt/homebrew/bin"
       path add $"/etc/profiles/per-user/($env.USER)/bin"
+      path add "/opt/homebrew/opt/postgresql@18/bin"
 
       # Nushell
       $env.config.buffer_editor = "${pkgs.neovim}/bin/nvim"
