@@ -13,10 +13,10 @@ _:
 
       font = {
         size = 12.0;
-        normal.family = "FiraCode Nerd Font";
-        bold.family = "FiraCode Nerd Font";
-        italic.family = "FiraCode Nerd Font";
-        bold_italic.family = "FiraCode Nerd Font";
+        normal.family = "JetBrainsMono Nerd Font";
+        bold.family = "JetBrainsMono Nerd Font";
+        italic.family = "JetBrainsMono Nerd Font";
+        bold_italic.family = "JetBrainsMono Nerd Font";
       };
 
       #scrolling.multiplier = 5;
